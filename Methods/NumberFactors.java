@@ -5,6 +5,7 @@ public class NumberFactors {
         int count = 0;
         for (int i = 1; i <= number; i++) {
             if (number % i == 0) count++;
+            
         }
         int[] factors = new int[count];
         int index = 0;
