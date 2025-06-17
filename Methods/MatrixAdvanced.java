@@ -6,6 +6,7 @@ public class MatrixAdvanced {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 matrix[i][j] = (int) (Math.random() * 10);
+                
             }
         }
         return matrix;
