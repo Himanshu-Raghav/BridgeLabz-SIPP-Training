@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class UnitConverterTemperature {
     public static double convertFahrenheitToCelsius(double fahrenheit) {
         return (fahrenheit - 32) * 5 / 9;
+        
     }
 
     public static double convertCelsiusToFahrenheit(double celsius) {
