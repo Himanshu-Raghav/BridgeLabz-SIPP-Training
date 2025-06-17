@@ -10,6 +10,7 @@ public class OTPGenerator {
         for (int otp : otps) {
             if (!set.add(otp)) return false;
         }
+        
         return true;
     }
 
