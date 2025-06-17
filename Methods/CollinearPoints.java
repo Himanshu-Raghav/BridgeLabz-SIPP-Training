@@ -11,6 +11,7 @@ public class CollinearPoints {
     public static boolean areCollinearArea(double x1, double y1, double x2, double y2, double x3, double y3) {
         double area = 0.5 * Math.abs(x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2));
         return Math.abs(area) < 1e-10;
+        
     }
 
     public static void main(String[] args) {
