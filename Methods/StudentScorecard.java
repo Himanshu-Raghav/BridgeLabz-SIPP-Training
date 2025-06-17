@@ -6,6 +6,7 @@ public class StudentScorecard {
         for (int i = 0; i < numStudents; i++) {
             for (int j = 0; j < 3; j++) {
                 scores[i][j] = (int) (Math.random() * 90 + 10);
+                
             }
         }
         return scores;
