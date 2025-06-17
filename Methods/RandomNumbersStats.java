@@ -5,6 +5,7 @@ public class RandomNumbersStats {
             array[i] = (int) (Math.random() * 9000 + 1000);
         }
         return array;
+        
     }
 
     public static double[] findAverageMinMax(int[] numbers) {
