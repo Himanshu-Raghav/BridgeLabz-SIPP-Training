@@ -9,7 +9,6 @@ public class TrigonometricFunctions {
         result[2] = Math.tan(radians);
         return result;
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double angle = scanner.nextDouble();
