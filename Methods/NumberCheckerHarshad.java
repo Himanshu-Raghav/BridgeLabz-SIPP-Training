@@ -8,6 +8,7 @@ public class NumberCheckerHarshad {
             digits[i] = numStr.charAt(i) - '0';
         }
         return digits;
+        
     }
 
     public static int countDigits(int number) {
