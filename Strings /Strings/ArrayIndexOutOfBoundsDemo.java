@@ -1,11 +1,9 @@
-public class ArrayIndexOutOfBound {
-    // Method to generate ArrayIndexOutOfBoundsException
+public class ArrayIndexOutOfBoundsDemo {
+    
     public static void generateException(String[] names) {
-        // Accessing index out of bounds
+       
         System.out.println(names[names.length]);
     }
-
-    // Method to handle ArrayIndexOutOfBoundsException
     public static void handleException(String[] names) {
         try {
             System.out.println(names[names.length]);
@@ -18,8 +16,6 @@ public class ArrayIndexOutOfBound {
 
     public static void main(String[] args) {
         String[] names = {"Alice", "Bob", "Charlie"};
-        // Uncomment to see the exception
-        // generateException(names);
         System.out.println("Demonstrating ArrayIndexOutOfBoundsException handling:");
         handleException(names);
     }

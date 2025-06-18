@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AllCharacters {
+public class AllCharacters {    
     public static char[] getChars(String str) {
         char[] chars = new char[str.length()];
         for (int i = 0; i < str.length(); i++) {
