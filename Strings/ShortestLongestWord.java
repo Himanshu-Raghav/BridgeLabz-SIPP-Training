@@ -4,6 +4,7 @@ public class ShortestLongestWord {
     
     public static String[] splitByCharAt(String str) {
         int len = getLength(str);
+        
         int wordCount = 1;
         for (int i = 0; i < len; i++) {
             if (str.charAt(i) == ' ') wordCount++;
