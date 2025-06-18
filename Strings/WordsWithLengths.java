@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class WordsWithLengths {
     public static String[] splitByCharAt(String str) {
         int len = getLength(str);
+        
         int wordCount = 1;
         for (int i = 0; i < len; i++) {
             if (str.charAt(i) == ' ') wordCount++;
