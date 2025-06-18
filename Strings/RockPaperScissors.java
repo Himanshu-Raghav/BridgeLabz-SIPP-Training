@@ -6,6 +6,7 @@ public class RockPaperScissors {
         int n = new Random().nextInt(3);
         if (n == 0) return "rock";
         else if (n == 1) return "paper";
+            
         else return "scissors";
     }    
     public static String findWinner(String user, String comp) {
