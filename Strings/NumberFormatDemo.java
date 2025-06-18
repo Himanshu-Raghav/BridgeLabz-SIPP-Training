@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class NumberFormatDemo {
-    
     public static void generateNumberFormat(String text) {
         int num = Integer.parseInt(text);
         System.out.println("Parsed number: " + num);
