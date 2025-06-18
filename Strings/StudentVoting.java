@@ -6,6 +6,7 @@ public class StudentVoting {
         Random rand = new Random();
         for (int i = 0; i < n; i++) {
             ages[i] = 10 + rand.nextInt(90); 
+            
         }
         return ages;
     }
