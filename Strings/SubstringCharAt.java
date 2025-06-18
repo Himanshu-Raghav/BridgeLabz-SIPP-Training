@@ -5,6 +5,7 @@ public class SubstringCharAt {
         StringBuilder sb = new StringBuilder();
         for (int i = start; i < end && i < str.length(); i++) {
             sb.append(str.charAt(i));
+            
         }
         return sb.toString();
     }
