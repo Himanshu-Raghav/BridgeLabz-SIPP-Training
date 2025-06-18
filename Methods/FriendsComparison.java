@@ -7,6 +7,7 @@ public class FriendsComparison {
             if (ages[i] < ages[minIndex]) minIndex = i;
         }
         return minIndex;
+        
     }
 
     public static int findTallest(double[] heights) {

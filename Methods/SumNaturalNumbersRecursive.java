@@ -4,6 +4,7 @@ public class SumNaturalNumbersRecursive {
     public static int sumRecursive(int n) {
         if (n <= 0) return 0;
         return n + sumRecursive(n - 1);
+        
     }
 
     public static int sumFormula(int n) {

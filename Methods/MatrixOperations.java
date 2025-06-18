@@ -8,6 +8,7 @@ public class MatrixOperations {
                 matrix[i][j] = (int) (Math.random() * 10);
             }
         }
+        
         return matrix;
     }
 

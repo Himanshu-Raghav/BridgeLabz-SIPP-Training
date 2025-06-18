@@ -10,6 +10,7 @@ public class FactorsCalculator {
         int index = 0;
         for (int i = 1; i <= number; i++) {
             if (number % i == 0) factors[index++] = i;
+            
         }
         return factors;
     }

@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class SpringSeason {
     public static boolean isSpringSeason(int month, int day) {
         if (month < 3 || month > 6) return false;
@@ -7,6 +8,7 @@ public class SpringSeason {
     }
 
     public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
         int month = Integer.parseInt(args[0]);
         int day = Integer.parseInt(args[1]);
         System.out.println(isSpringSeason(month, day) ? "It's a Spring Season" : "Not a Spring Season");

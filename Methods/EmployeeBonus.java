@@ -6,6 +6,7 @@ public class EmployeeBonus {
         for (int i = 0; i < numEmployees; i++) {
             data[i][0] = (int) (Math.random() * 90000 + 10000);
             data[i][1] = (int) (Math.random() * 10 + 1);
+            
         }
         return data;
     }

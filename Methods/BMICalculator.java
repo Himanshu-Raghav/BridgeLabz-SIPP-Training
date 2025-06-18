@@ -9,6 +9,7 @@ public class BMICalculator {
             result[i][1] = data[i][1];
             result[i][2] = data[i][0] / (heightMeters * heightMeters);
         }
+        
         return result;
     }
 

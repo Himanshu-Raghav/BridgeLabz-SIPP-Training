@@ -9,6 +9,7 @@ public class EuclideanDistance {
         double m = (y2 - y1) / (x2 - x1);
         double b = y1 - m * x1;
         return new double[]{m, b};
+        
     }
 
     public static void main(String[] args) {
