@@ -7,6 +7,7 @@ public class ToLowerCaseCompare {
             char c = str.charAt(i);
             if (c >= 'A' && c <= 'Z') {
                 sb.append((char)(c + 32));
+                
             } else {
                 sb.append(c);
             }
