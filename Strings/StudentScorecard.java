@@ -4,6 +4,7 @@ public class StudentScorecard {
     public static int[][] generateScores(int n) {
         int[][] scores = new int[n][3];
         Random rand = new Random();
+        
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < 3; j++) {
                 scores[i][j] = 10 + rand.nextInt(91); 
