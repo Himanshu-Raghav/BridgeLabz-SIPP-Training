@@ -9,8 +9,7 @@ public class SplitTextCompare {
                 str.charAt(count);
                 count++;
             }
-        } catch (Exception e) {
-            
+        } catch (Exception e) {  
         }
         return count;
     }  
