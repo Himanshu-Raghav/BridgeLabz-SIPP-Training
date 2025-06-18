@@ -5,6 +5,7 @@ public class AllCharacters {
         char[] chars = new char[str.length()];
         for (int i = 0; i < str.length(); i++) {
             chars[i] = str.charAt(i);
+            
         }
         return chars;
     }
