@@ -6,6 +6,7 @@ public class StringLengthManual {
         try {
             while (true) {
                 str.charAt(count);
+                
                 count++;
             }
         } catch (Exception e) {
