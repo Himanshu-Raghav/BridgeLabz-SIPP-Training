@@ -6,6 +6,7 @@ public class VowelConsonantCount {
         if (c >= 'a' && c <= 'z') {
             if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') return "Vowel";
             else return "Consonant";
+            
         }
         return "Not a Letter";
     }
