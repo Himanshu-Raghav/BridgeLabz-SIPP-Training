@@ -6,7 +6,6 @@ public class ToggleCaseConverter {
         System.out.print("Enter a string: ");
         String input = sc.nextLine();
         String result = "";
-
         for (char c : input.toCharArray()) {
             if (Character.isUpperCase(c))
                 result += Character.toLowerCase(c);
