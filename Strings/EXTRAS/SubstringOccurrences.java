@@ -7,7 +7,6 @@ public class SubstringOccurrences {
         String mainStr = sc.nextLine();
         System.out.print("Enter substring: ");
         String subStr = sc.nextLine();
-
         int count = 0;
         int index = 0;
 
