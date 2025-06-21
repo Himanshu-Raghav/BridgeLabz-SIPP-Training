@@ -8,6 +8,7 @@ public class AnagramChecker {
         String s1 = sc.nextLine().replaceAll("\\s+", "").toLowerCase();
         System.out.print("Enter second string: ");
         String s2 = sc.nextLine().replaceAll("\\s+", "").toLowerCase();
+        
 
         if (s1.length() != s2.length()) {
             System.out.println("Not Anagrams");
