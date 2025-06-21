@@ -6,6 +6,7 @@ public class RemoveDuplicates {
         System.out.print("Enter a string: ");
         String input = sc.nextLine();
         String result = "";
+        
 
         for (char c : input.toCharArray()) {
             if (result.indexOf(c) == -1)
