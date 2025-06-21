@@ -9,7 +9,6 @@ public class WordReplacer {
         String oldWord = sc.nextLine();
         System.out.print("Enter replacement word: ");
         String newWord = sc.nextLine();
-
         String modified = sentence.replace(oldWord, newWord);
         System.out.println("Modified Sentence: " + modified);
     }
