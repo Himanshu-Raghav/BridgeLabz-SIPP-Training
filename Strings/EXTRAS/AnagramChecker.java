@@ -11,6 +11,7 @@ public class AnagramChecker {
 
         if (s1.length() != s2.length()) {
             System.out.println("Not Anagrams");
+            
             return;
         }
 
