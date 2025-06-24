@@ -5,7 +5,7 @@ public class AreaOfCircle {
 	AreaOfCircle(double radius){
 		this.radius=radius;
 	}
-	private double Area(double radius) {
+	double Area(double radius) {
 		double area=3.14*radius*radius;
 		return area;
 	}
