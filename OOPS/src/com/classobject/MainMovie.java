@@ -7,6 +7,7 @@ public class MainMovie {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter movie name: ");
+        
         String movie = sc.nextLine();
 
         MovieTicket ticket = new MovieTicket(movie);
