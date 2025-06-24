@@ -6,6 +6,7 @@ public class PalindromeChecker {
     private String text;
 
     public PalindromeChecker(String text) {
+        
         this.text = text;
     }
 
