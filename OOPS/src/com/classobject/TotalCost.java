@@ -8,6 +8,7 @@ public class TotalCost {
 
         System.out.print("Enter item code: ");
         String code = sc.nextLine();
+        
 
         System.out.print("Enter item name: ");
         String name = sc.nextLine();
