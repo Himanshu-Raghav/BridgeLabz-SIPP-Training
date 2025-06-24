@@ -6,6 +6,7 @@ public class MainCart {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        
         System.out.print("Enter item name: ");
         String name = sc.nextLine();
 
