@@ -6,6 +6,7 @@ public class CartItem {
     private String itemName;
     private double price;
     private int quantity;
+    
 
     public CartItem(String itemName, double price, int quantity) {
         this.itemName = itemName;
