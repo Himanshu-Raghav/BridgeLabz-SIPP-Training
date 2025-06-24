@@ -7,6 +7,7 @@ public class MainPalindrome {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter text: ");
+        
         String input = sc.nextLine();
 
         PalindromeChecker checker = new PalindromeChecker(input);
