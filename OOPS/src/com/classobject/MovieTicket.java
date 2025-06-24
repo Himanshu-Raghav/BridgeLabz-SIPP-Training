@@ -7,6 +7,7 @@ public class MovieTicket {
     private String seatNumber;
     private double price;
 
+    
     public MovieTicket(String movieName) {
         this.movieName = movieName;
     }
