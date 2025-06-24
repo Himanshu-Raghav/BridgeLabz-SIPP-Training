@@ -8,6 +8,7 @@ public class MainStudent {
 
         System.out.print("Enter student name: ");
         String name = sc.nextLine();
+        
 
         System.out.print("Enter roll number: ");
         int rollNumber = sc.nextInt();
