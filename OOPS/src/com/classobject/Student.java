@@ -7,6 +7,7 @@ public class Student {
     private int rollNumber;
     private int marks;
 
+    
     public Student(String name, int rollNumber, int marks) {
         this.name = name;
         this.rollNumber = rollNumber;

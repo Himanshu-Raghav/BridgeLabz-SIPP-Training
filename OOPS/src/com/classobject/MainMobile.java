@@ -8,6 +8,7 @@ public class MainMobile {
 
         System.out.print("Enter brand: ");
         String brand = sc.nextLine();
+        
 
         System.out.print("Enter model: ");
         String model = sc.nextLine();

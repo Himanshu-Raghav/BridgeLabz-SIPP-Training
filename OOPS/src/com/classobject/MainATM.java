@@ -6,6 +6,7 @@ public class MainATM {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        
         System.out.print("Enter account holder name: ");
         String holder = sc.nextLine();
 
