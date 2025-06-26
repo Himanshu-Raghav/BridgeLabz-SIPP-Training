@@ -10,7 +10,8 @@ public class Vehicle {
 	   
 	   private String ownerName;
 	   private String vehicleType;
-	   
+
+	
 	   // Constructor
 	   public Vehicle(String ownerName, String vehicleType, String registrationNumber) {
 	       this.ownerName = ownerName;
