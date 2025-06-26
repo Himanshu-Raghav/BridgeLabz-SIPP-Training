@@ -10,6 +10,7 @@ public class Company {
 	   private String name;
 	   
 	   // Final variable
+	
 	   private final int id; 
 	   private String designation;
 	   
