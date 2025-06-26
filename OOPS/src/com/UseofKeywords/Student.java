@@ -1,6 +1,7 @@
 package oops_day_03_package;
 
 public class Student {
+
 	
 	   // Static variable
 	   private static String universityName;
