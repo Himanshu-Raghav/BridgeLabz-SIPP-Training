@@ -4,7 +4,8 @@ class Book {
 	
 	   // Static variable
 	   private static String libraryName;
-	   
+
+	
 	   // Instance variable
 	   private String title;
 	   private String author;
