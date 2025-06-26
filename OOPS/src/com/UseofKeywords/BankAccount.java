@@ -5,7 +5,8 @@ public class BankAccount {
 	   // Static variable 
 	   private static String bankName = "State bank of India";
 	   private static int totalAccounts = 0;
-	   
+
+	
 	   // Final variable 
 	   private final String accountNumber;
 	   private String accountHolderName;
