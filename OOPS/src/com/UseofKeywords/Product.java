@@ -4,6 +4,7 @@ public class Product {
 	
 	   // Static variable shared by all products
 	   private static double discount = 0.0;
+	
 	   
 	   // Instance variable
 	   private final String productID; // Final variable
