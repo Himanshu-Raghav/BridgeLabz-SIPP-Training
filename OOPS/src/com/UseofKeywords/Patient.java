@@ -8,7 +8,8 @@ public class Patient {
 	   
 	   // Instance variable
 	   private final String patientID; // Final variable
-	   
+
+	
 	   private String name;
 	   private int age;
 	   private String ailment;
