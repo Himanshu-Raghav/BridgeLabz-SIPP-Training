@@ -5,6 +5,7 @@ class Customer {
  String name;
  int accountNumber;
  double balance;
+ 
 
  // Constructor
  Customer(String name) {
