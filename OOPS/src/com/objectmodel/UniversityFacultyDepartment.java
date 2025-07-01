@@ -2,6 +2,7 @@ package object_modeling_package;
 
 import java.util.*;
 
+
 //Faculty class
 class Faculty {
  String name;
