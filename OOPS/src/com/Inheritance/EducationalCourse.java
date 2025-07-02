@@ -1,5 +1,6 @@
 package multilevel_inheritance_package;
 
+
 //Course superclass
 class Course {
  String courseName;  
