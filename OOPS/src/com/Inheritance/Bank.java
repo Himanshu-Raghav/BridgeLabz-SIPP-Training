@@ -1,5 +1,6 @@
 package hierarchial_inheritance_package;
 
+
 //BankAccount superclass
 class BankAccount {
  String accountNumber;  
