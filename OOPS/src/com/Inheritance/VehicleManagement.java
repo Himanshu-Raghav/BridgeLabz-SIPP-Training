@@ -1,3 +1,4 @@
+
 package multiple_inheritance_package;
 
 //Vehicle superclass
