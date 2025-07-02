@@ -1,3 +1,4 @@
+
 package inheritance_package;
 
 //Animal superclass
