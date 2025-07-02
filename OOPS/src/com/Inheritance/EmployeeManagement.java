@@ -1,5 +1,6 @@
 package inheritance_package;
 
+
 //Employee superclass
 class Employee {
  String name;
