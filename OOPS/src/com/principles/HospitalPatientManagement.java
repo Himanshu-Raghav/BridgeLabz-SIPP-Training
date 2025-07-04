@@ -1,3 +1,4 @@
+
 // Q7_HospitalPatientManagement.java
 // Q7: Hospital Patient Management
 abstract class Patient {
