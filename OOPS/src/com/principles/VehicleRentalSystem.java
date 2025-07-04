@@ -1,5 +1,6 @@
 // Q3_VehicleRentalSystem.java
 // Q3: Vehicle Rental System
+
 abstract class Vehicle {
     private String vehicleNumber;
     private String type;
