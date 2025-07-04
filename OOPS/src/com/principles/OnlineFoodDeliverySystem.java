@@ -8,6 +8,7 @@ abstract class FoodItem {
         this.itemName = itemName;
         this.price = price;
         this.quantity = quantity;
+        
     }
     public String getItemName() { return itemName; }
     public double getPrice() { return price; }
