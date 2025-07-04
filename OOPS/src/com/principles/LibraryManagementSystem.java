@@ -5,6 +5,7 @@ abstract class LibraryItem {
     private String title;
     private String author;
     private String borrowerData;
+    
     public LibraryItem(int itemId, String title, String author) {
         this.itemId = itemId;
         this.title = title;
