@@ -1,5 +1,6 @@
 // Q2_ECommercePlatform.java
 // Q2: E-Commerce Platform
+
 abstract class Product {
     private int productId;
     private String name;
