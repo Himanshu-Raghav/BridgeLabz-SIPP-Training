@@ -1,5 +1,6 @@
 // Q8_RideHailingApplication.java
 // Q8: Ride-Hailing Application
+
 abstract class RideVehicle {
     private String vehicleId;
     private String driverName;
