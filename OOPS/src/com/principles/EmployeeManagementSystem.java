@@ -9,6 +9,7 @@ abstract class Employee {
     public Employee(int employeeId, String name, double baseSalary) {
         this.employeeId = employeeId;
         this.name = name;
+        
         this.baseSalary = baseSalary;
     }
 
