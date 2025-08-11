@@ -1,0 +1,6 @@
+Use circular array to store time slots for questions
+Track time per question
+Trigger warning if time is near end for current question
+
+Main:
+    Simulate quiz with multiple questions and timed slots

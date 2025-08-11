@@ -1,0 +1,7 @@
+Use Queue to store customers:
+Attributes: name, priority (normal/emergency)
+Enqueue customers based on arrival
+Dequeue emergency customers first
+
+Main:
+    Simulate enqueue and dequeue operations
