@@ -1,0 +1,10 @@
+Class Item:
+    Attributes: name, price
+
+Class ShoppingCart:
+    Attribute: List<Item>
+    Generic Method: calculateTotalPrice()
+
+Main:
+    Add items to cart
+    Calculate and display total price

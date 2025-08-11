@@ -1,0 +1,8 @@
+Class Employee:
+    Attributes: name, department
+    Constructor: initialize attributes
+
+Main:
+    Use ArrayList<Employee> to store employees
+    Filter by department using streams
+    Display results
