@@ -1,0 +1,9 @@
+Enum TrafficLight: RED, YELLOW, GREEN
+
+Class TrafficSignalController:
+    Attribute: currentLight (TrafficLight)
+    Method: switchLight() - changes light based on time interval
+
+Main:
+    Create TrafficSignalController object
+    Run simulation switching lights in sequence

@@ -1,0 +1,7 @@
+Class Member:
+    Attributes: name, ID, membershipDate
+    Method: checkMembershipValidity() - checks if membership is valid
+
+Main:
+    Create Member object
+    Check and display membership validity
