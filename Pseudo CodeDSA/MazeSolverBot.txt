@@ -1,0 +1,16 @@
+FUNCTION solveMaze(maze, x, y, solution)
+    IF destination reached
+        RETURN true
+    IF cell is safe
+        MARK cell in solution
+        IF solveMaze(right)
+            RETURN true
+        IF solveMaze(down)
+            RETURN true
+        UNMARK cell in solution (backtrack)
+    RETURN false
+
+MAIN:
+    CREATE maze as 2D grid
+    CREATE solution array
+    CALL solveMaze(maze, 0, 0, solution)

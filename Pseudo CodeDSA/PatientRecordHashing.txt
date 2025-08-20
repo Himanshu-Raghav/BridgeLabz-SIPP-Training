@@ -1,0 +1,11 @@
+DECLARE patientMap as HashMap<patientId, Patient>
+
+CLASS Patient
+    ATTRIBUTES: id, name, age, diagnosis
+    METHODS: getDetails(), updateDiagnosis()
+
+MAIN:
+    ADD patient to patientMap
+    RETRIEVE patient by id from patientMap
+    UPDATE patient details
+    DELETE patient by id
