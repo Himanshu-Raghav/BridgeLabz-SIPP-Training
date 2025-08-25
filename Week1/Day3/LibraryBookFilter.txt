@@ -1,0 +1,7 @@
+CLASS Book
+    ATTRIBUTES: title, year, rating
+
+MAIN:
+    CREATE list of books
+    FILTER books WHERE year > 2015 AND rating > 4.5
+    DISPLAY filtered books

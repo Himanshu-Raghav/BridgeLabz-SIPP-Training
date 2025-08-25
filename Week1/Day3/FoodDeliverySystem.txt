@@ -1,0 +1,26 @@
+CLASS Customer
+    ATTRIBUTES: name, address, phone
+    METHODS: getDetails()
+
+CLASS Restaurant
+    ATTRIBUTES: name, location, menuItems
+    METHODS: getMenu()
+
+CLASS DeliveryBoy
+    ATTRIBUTES: name, vehicleNumber, phone
+    METHODS: deliverOrder(order)
+
+CLASS Order
+    ATTRIBUTES: customer (Customer), restaurant (Restaurant), deliveryBoy (DeliveryBoy), items, totalAmount
+    METHODS:
+        calculateTotal()
+        placeOrder()
+        assignDeliveryBoy(deliveryBoy)
+
+MAIN:
+    CREATE Customer c
+    CREATE Restaurant r
+    CREATE DeliveryBoy d
+    CREATE Order o with c, r
+    o.assignDeliveryBoy(d)
+    o.placeOrder()

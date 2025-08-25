@@ -1,0 +1,6 @@
+Use Stack to store text states:
+Push each change to stack
+Undo: pop from stack and revert to previous state
+
+Main:
+    Simulate text changes and undos

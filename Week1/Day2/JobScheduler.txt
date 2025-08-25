@@ -1,0 +1,7 @@
+Use PriorityQueue<Job>:
+Job Attributes: name, deadline, processingTime
+Comparator: prioritize jobs based on deadline, then processing time
+
+Main:
+    Add jobs to priority queue
+    Process jobs in order of priority

@@ -1,0 +1,9 @@
+Class Doctor:
+    Attributes: name, specialization
+
+Use Map<String, List<Doctor>> to map department to doctors
+Filter doctors by specialization
+
+Main:
+    Add departments and doctors
+    Filter and display doctors by specialization

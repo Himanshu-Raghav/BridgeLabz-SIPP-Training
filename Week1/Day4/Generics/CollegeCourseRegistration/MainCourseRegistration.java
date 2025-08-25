@@ -1,0 +1,1 @@
+// MainCourseRegistration.java placeholder

@@ -1,0 +1,1 @@
+// FlatDiscount.java placeholder

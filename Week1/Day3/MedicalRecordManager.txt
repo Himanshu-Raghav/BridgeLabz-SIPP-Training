@@ -1,0 +1,24 @@
+INTERFACE Searchable
+    METHOD search(criteria)
+
+INTERFACE Printable
+    METHOD print()
+
+CLASS MedicalReport IMPLEMENTS Searchable, Printable
+    ATTRIBUTES: reportId, patientName, diagnosis
+    METHODS:
+        search(criteria) -> MATCH based on criteria
+        print() -> DISPLAY report details
+
+CLASS BillingReport IMPLEMENTS Searchable, Printable
+    ATTRIBUTES: reportId, amount, patientName
+    METHODS:
+        search(criteria) -> MATCH based on criteria
+        print() -> DISPLAY billing details
+
+MAIN:
+    CREATE List of Searchable reports
+    ADD MedicalReport and BillingReport
+    FOR each report in reports
+        IF report.search(criteria)
+            report.print()

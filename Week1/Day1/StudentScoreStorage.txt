@@ -1,0 +1,6 @@
+Use HashMap<String, Integer> to store student marks
+Use streams to find and display highest scorer
+
+Main:
+    Input student names and scores
+    Display highest scorer

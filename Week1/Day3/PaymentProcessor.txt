@@ -1,0 +1,18 @@
+CLASS Transaction<T>
+    ATTRIBUTES: transactionId, amount, paymentMethod (T)
+    METHODS: process()
+
+CLASS UPI
+    ATTRIBUTES: upiId
+
+CLASS Card
+    ATTRIBUTES: cardNumber, expiryDate
+
+CLASS NetBanking
+    ATTRIBUTES: accountNumber, bankName
+
+MAIN:
+    CREATE Transaction<UPI>
+    CREATE Transaction<Card>
+    CREATE Transaction<NetBanking>
+    CALL process() for each

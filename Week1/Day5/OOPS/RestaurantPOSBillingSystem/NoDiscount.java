@@ -1,0 +1,1 @@
+// NoDiscount.java placeholder

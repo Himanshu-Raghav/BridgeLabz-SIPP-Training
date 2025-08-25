@@ -1,0 +1,1 @@
+// RuleBasedDiagnosis.java placeholder

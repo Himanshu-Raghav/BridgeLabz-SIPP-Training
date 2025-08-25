@@ -1,0 +1,12 @@
+Abstract Class Crop:
+    Abstract Methods: waterRequirement(), harvest()
+
+Class Rice extends Crop:
+    Implement waterRequirement(), harvest()
+
+Class Wheat extends Crop:
+    Implement waterRequirement(), harvest()
+
+Main:
+    Create objects of Rice, Wheat
+    Display their water requirements and harvesting details

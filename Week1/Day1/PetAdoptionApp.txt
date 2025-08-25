@@ -1,0 +1,16 @@
+Class Pet:
+    Attributes: name, age
+    Constructor: initialize name, age
+
+Class Dog extends Pet:
+    Constructor: initialize name, age
+
+Class Cat extends Pet:
+    Constructor: initialize name, age
+
+Class Bird extends Pet:
+    Constructor: initialize name, age
+
+Main:
+    Create objects of Dog, Cat, Bird
+    Display their details

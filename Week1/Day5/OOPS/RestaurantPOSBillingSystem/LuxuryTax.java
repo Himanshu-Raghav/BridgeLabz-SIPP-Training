@@ -1,0 +1,1 @@
+// LuxuryTax.java placeholder
