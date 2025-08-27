@@ -1,0 +1,1 @@
+// MainWordCounter.java placeholder
