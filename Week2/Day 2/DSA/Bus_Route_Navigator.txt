@@ -1,0 +1,14 @@
+Pseudo Code: Bus Route Navigator
+
+Structure: LinkedList busRoute
+
+Operations:
+    Insert(stop)
+    Delete(stop)
+    Search(stop)
+
+Example:
+    Initial route: Depot → Main Street → City Mall → Hospital → Airport
+    Insert(University after City Mall)
+    Delete(Hospital)
+    Search(Airport) → Found

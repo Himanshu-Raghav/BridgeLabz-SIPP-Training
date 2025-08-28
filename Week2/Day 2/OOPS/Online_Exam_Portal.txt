@@ -1,0 +1,19 @@
+Pseudo Code: Online Exam Portal
+
+Class User
+    Attributes: username, password
+    Method: login()
+
+Class Student extends User
+    Method: login()
+        If student registered and enrolled → grant exam access
+        Else → deny access
+
+Class Admin extends User
+    Method: login()
+        If admin credentials valid → grant exam management access
+        Else → deny access
+
+Example:
+    student.login("john123", "pass") → Check enrollment
+    admin.login("admin1", "pass") → Check role + credentials

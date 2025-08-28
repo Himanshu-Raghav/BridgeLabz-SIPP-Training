@@ -1,0 +1,16 @@
+Pseudo Code: Attendance Marker
+
+2D Array attendance[30][30]   // 30 students × 30 days
+
+Operations:
+    MarkAttendance(student, day, status)
+    DailySummary(day)
+        Count present students
+    MonthlySummary(student)
+        Count total presents for student
+    DefaulterList()
+        Find students < 75% attendance
+
+Example:
+    attendance[student][day] = 1 → Present
+    attendance[student][day] = 0 → Absent

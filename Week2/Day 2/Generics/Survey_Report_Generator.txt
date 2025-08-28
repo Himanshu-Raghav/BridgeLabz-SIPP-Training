@@ -1,0 +1,15 @@
+Pseudo Code: Online Survey Report Generator
+
+Class SurveyResponse
+    Attributes: restaurantName, rating
+
+List<SurveyResponse> responses
+
+Process:
+    Group by restaurantName
+    Compute average rating per restaurant
+
+Output:
+    PizzaHut → 4.5
+    KFC → 3.5
+    Subway → 4.67

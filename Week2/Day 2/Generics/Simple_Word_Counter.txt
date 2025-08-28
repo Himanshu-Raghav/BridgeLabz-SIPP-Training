@@ -1,0 +1,17 @@
+Pseudo Code: Simple Word Counter
+
+Input: Text paragraph
+Map<String, Integer> wordCount
+
+Process:
+    Split text into words
+    Normalize (lowercase, remove punctuation)
+    For each word → increment count in map
+
+Output: Word frequencies
+
+Example:
+    "Sports bring people together. Sports inspire teamwork."
+    Sports → 2
+    bring → 1
+    people → 1

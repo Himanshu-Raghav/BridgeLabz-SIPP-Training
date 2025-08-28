@@ -1,0 +1,21 @@
+Pseudo Code: Parking Lot Ticketing System
+
+Class Vehicle
+    Attributes: vehicleNumber, entryTime
+    Method: calculateFee(exitTime)
+
+Class Car extends Vehicle
+    Method: calculateFee(exitTime)
+        Fee = 50 + (extra hours × 30)
+
+Class Bike extends Vehicle
+    Method: calculateFee(exitTime)
+        Fee = 20 + (extra hours × 10)
+
+Class Truck extends Vehicle
+    Method: calculateFee(exitTime)
+        Fee = 100 + (extra hours × 50)
+
+Process:
+    On entry → create subclass object with entry time
+    On exit → call calculateFee(exitTime) and print details
