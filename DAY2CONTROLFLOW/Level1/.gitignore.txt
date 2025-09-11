@@ -1,2 +1,0 @@
-.VotingEligibility.class
-,Diivisibility.class
